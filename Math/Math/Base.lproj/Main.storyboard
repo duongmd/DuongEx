@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Math" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JO1-e4-Vdx">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Cartoon-Springs-PPT-Backgrounds-1024x768.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8BN-X8-NY7">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t25-UL-uIE">
+                                <rect key="frame" x="37" y="87" width="301" height="273"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="nBA-GO-XPp">
+                                        <rect key="frame" x="0.0" y="0.0" width="301" height="273"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8f-jd-BIN">
+                                        <rect key="frame" x="34" y="109" width="47" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="0.94232958555221558" green="0.76309800148010254" blue="0.13051190972328186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLy-Bg-If4">
+                                        <rect key="frame" x="139" y="109" width="42" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="0.94232958555221558" green="0.76309800148010254" blue="0.13051190972328186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joO-a2-jxa">
+                                        <rect key="frame" x="189" y="109" width="44" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="0.94232958555221558" green="0.76309800148010254" blue="0.13051190972328186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ji5-tw-Rbi">
+                                        <rect key="frame" x="84" y="109" width="42" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="0.94232958555221558" green="0.76309800148010254" blue="0.13051190972328186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPi-ms-igQ">
+                                        <rect key="frame" x="241" y="109" width="43" height="31"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" red="0.94232958555221558" green="0.76309800148010254" blue="0.13051190972328186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgZ-lv-eUf">
+                                        <rect key="frame" x="35" y="162" width="141" height="47"/>
+                                        <state key="normal" title="PhepTinhNgauNhien">
+                                            <color key="titleColor" red="0.95329922437667847" green="0.98393362760543823" blue="0.96775394678115845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="rgZ-lv-eUf"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="note2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xsq-dU-3fa">
+                                <rect key="frame" x="20" y="475" width="102" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="note1" translatesAutoresizingMaskIntoConstraints="NO" id="v3E-m6-4NQ">
+                                <rect key="frame" x="141" y="475" width="96" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="note3.png" translatesAutoresizingMaskIntoConstraints="NO" id="ssw-cU-HD9">
+                                <rect key="frame" x="259" y="475" width="90" height="91"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5V-HB-91V">
+                                <rect key="frame" x="20" y="477" width="102" height="87"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="btn_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNe-aF-uQE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYT-8c-kO9">
+                                <rect key="frame" x="137" y="475" width="101" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="btn_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fmv-it-gqk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Del-mG-2EE">
+                                <rect key="frame" x="259" y="481" width="85" height="83"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="btn_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJm-KJ-hKZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="btn_b1" destination="x5V-HB-91V" id="pYa-Dv-ROt"/>
+                        <outlet property="btn_b2" destination="zYT-8c-kO9" id="j2R-It-fZV"/>
+                        <outlet property="btn_b3" destination="Del-mG-2EE" id="33A-zk-Duw"/>
+                        <outlet property="lbl_so1" destination="a8f-jd-BIN" id="74h-JO-9B8"/>
+                        <outlet property="lbl_so2" destination="mLy-Bg-If4" id="GPY-A1-5av"/>
+                        <outlet property="phepTinh" destination="ji5-tw-Rbi" id="cJ4-0T-ou6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cartoon-Springs-PPT-Backgrounds-1024x768.jpg" width="1024" height="768"/>
+        <image name="board.png" width="771" height="396"/>
+        <image name="note1" width="190" height="190"/>
+        <image name="note2.png" width="190" height="190"/>
+        <image name="note3.png" width="190" height="190"/>
+    </resources>
+</document>
